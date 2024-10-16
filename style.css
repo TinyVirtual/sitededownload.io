@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+    background-color: black;
+    background-image: url(index_body_bg.png);
+    background-position: center;
+    background-attachment: fixed;
+    animation: bg_anim;
+    animation-duration: 10000s;
+    animation-timing-function: linear;
+}
+
+h1, p {
+  color: white;
+  font-family: cursive;
+  font-size: xx-large;
+}
+
+  audio {
+    position: absolute;
+    bottom: 5px;
+  }
+
+
+@keyframes bg_anim {
+    0%   {background-position-x: 0px;}
+    99.99% {background-position-x: 3000841px;}
+    100% {background-position-x: 0px;}
+  }
+  .container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #7298ff57;
+    padding: 20px;
+    border-radius: 10px;
+    border-color : rgba(0, 0, 255, 0.959);
+    border-radius: 20%;
+  }
+  
+.bad {
+  color: rgb(173, 29, 29);
+  font-family: cursive;
+  font-size: xx-large;
+}
+.redir {
+  color: rgb(137, 255, 133);
+  font-family: cursive;
+  font-size: xx-large;
+}
+  
+  form input, form label, form button {
+    display: block;
+    width: 80%;
+    margin-bottom: 10px;
+    color : rgb(0, 0, 255);
+    font-family: cursive;
+  }
+  
+  form input {
+    border-radius: 10%;
+    height: 50px;
+    block-size: 60px;
+    background-color : rgba(104, 182, 255, 0.548);
+    border-color : rgba(0, 0, 255, 0.5);
+    color : rgb(0, 0, 255);
+    font-family: cursive;
+  }
+  
+  form input:focus {
+    border-radius: 10%;
+    height: 50px;
+    block-size: 60px;
+    background-color : rgba(242, 104, 255, 0.548);
+    border-color : rgba(234, 0, 255, 0.5);
+    color : rgb(183, 0, 255);
+    font-family: cursive;
+  }
+  
+  form button {
+    border-radius: 30%;
+    height: 50px;
+    block-size: 60px;
+    background-color : rgba(104, 182, 255, 0.548);
+    border-color : rgba(0, 0, 255, 0.5);
+    color : rgb(0, 0, 255);
+    font-family: cursive;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: var(rgb(0, 55, 138));
+  }
+  

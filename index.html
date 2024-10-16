@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galaxia</title>
+  </head>
+  <body>
+    <section class="container">
+      <div>
+        <center>
+          <h1>Downloads</h1>
+          <p>Informe o ID do Download</p>
+        </center>
+      </div>
+      <br />
+      <br />
+      <center>
+        <form action="/" id="formulario" method="POST">
+          <label for="downid">Id do download</label>
+          <input type="text" id="downid" name="downid" />
+          <button type="submit">Abrir</button>
+        </form>
+        <div id="resultado"></div>
+      </center>
+    </section>
+    <script src="./submit.js" type="module"></script>
+  </body>
+</html>
